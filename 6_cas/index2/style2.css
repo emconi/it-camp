@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1 {
+    background-color: beige;
+    width: 300px;
+    height: 200px;
+    /* overflow visible*/
+    /* overflow hidden*/
+    /* overflow scroll*/
+    overflow: auto;
+}
+
+#div2 {
+    background-color: blue;
+    width: 300px;
+    height: 250px;
+}
+
+#div2 p {
+    /* font-size: larger; */
+    font-size: 50px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+/* Kontejner sirine 500px, visine 400px, pozadina po zelji neka se nalazi naslov velicine h2, boje bordo 
+i paragraf od 60 karaktera, boje tamno plave, treba biti centriran
+neka bue podesen overflow auto na kontejner, kontejner treba imati klasu main.
+velicina slova 20px */

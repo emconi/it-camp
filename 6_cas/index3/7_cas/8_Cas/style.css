@@ -1,0 +1,45 @@
+.main {
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 1px solid darkblue;
+}
+
+.main img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main p:hover {
+    background-color: blueviolet;
+    transition: all 1s ease-in-out;
+}
+
+.main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 15px;
+}
+
+.main h3 {
+    text-transform: capitalize;
+    margin: 25px;
+}
+
+.main p {
+    margin: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    text-align-last: center;
+}
+
+.paragraf {
+    width: 200px;
+    display: inline-block;
+}

@@ -1,0 +1,26 @@
+h1 {
+    color: aquamarine;
+}
+
+.main h1 {
+    color: red;
+}
+
+.main > p {
+    color: aqua;
+}
+
+/* + predstavlja prvi element nakon div-a a ne svaki sledeci */
+div + p {
+    color: brown;
+}
+
+/* Ako neko, html tagu dodelimo klasu i id primenimo stilove koji nisu isti, prednost ima id */
+#childdiv {
+    background-color: aquamarine;
+}
+
+.childdivclass {
+    background-color: blanchedalmond;
+}
+

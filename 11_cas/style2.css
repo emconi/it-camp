@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+
+.main {
+    /* margin: auto; */
+    width: 300px;
+    height: 200px;
+    background-color: rgb(138, 43, 226);
+    padding: 30pxs;
+    overflow: hidden;
+    /* display: block; osnovna vrednost za div */
+    /* display: inline; gubimo mogucnost definisanja odredjenih stilova kao sto su sirina visina margina padding... */
+    display: inline-block;
+}
+
+/* .main:nth-of-type(1) {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 255, 212);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.main:nth-of-type(2) {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+}
+
+.main:nth-of-type(3) {
+    margin: auto;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(128, 0, 128);
+} */
+
+.main:nth-of-type(2) {
+    /* display: none; */
+    /* visibility: hidden; */
+    background-color: beige;
+}
+
+.main p {
+    line-height: 25px;
+}
+
+.second {
+    margin: auto;
+    width: 700px;
+    height: 450px;
+    background-image: url();
+}

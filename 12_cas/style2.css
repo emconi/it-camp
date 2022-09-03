@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background-color: #dda0dd;
+}
+
+img {
+    width: 10%;
+    height: 90%;
+}
+
+.link {
+    display: inline-block;
+    
+}

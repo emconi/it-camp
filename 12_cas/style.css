@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Aboreto', cursive;
+    font-size: 16px;
+
+}
+
+.main {
+    margin: auto;
+    width: 700px;
+    width: 90vw;
+    /* width: 10in; */
+    height: 60vh;
+    background-color: #7fffd4;
+    font-size: 1.2em;
+}
+
+.child {
+    background-color: #a52a2a;
+    font-size: 2rem;
+}
+
+/* Apsolute lenghts:  */
+
+/* cm - znaci cm */
+/* mm - znas sta znaci mm */
+/* in - inch (1 = 96px) */
+/* px */
+/* pt - point (malo veci od in)*/
+/* pc - picas (1pc = 12pt) */
+
+
+/* Relative lenghts: */
+
+/* em - Relativan u odnosu na font-size od parent elementa */
+/* rem - Relativan u odnosu na font-size of body, ne nasledjuje velicinu od svog parent elementa */
+/* vw - viewport of width - Rlativna u odnosu na sirinu ekrana */
+/* vh - viewport of height - Relativna u odnosu na visinu ekrana */
+/* vmin - viewport of min - Relativna 1% u odnosu na manji deo (sirina ili visina) */
+/* vmax - viewport of max - Relativna 1% u odnosu na veci deo (sirina ili visina) */
+/* % - Relativan u odnosu na parent element */

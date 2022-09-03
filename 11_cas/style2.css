@@ -54,4 +54,6 @@
     width: 700px;
     height: 450px;
     background-image: url();
+    /* background-size: 100% 50%;  */
+    /* prva vrednost se odnosi na sirinu, druga na vsinu */
 }

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 2rem auto;
+    width: 95%;
+    height: 90vh;
+    background: #deb887;
+    position: relative;
+    height: 200vh;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #00ffff;
+    /* position: static; Osnovna vrednost*/
+    /* position: relative; ostavlja rezervisan prostorna kom se nalazio (tu se nece pomeriti sledeci element) */
+    /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na trenutno postavljeni element */
+
+    position: relative;
+    top: 0px;
+    left: 50%;
+    /* bottom: 30px; */
+    /* right: 50px; */
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    position: absolute;
+    /* Absolute ne cuva prostor na kome se nalazio i sledeci element ce se pomerini na taj prostor */
+    /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na parent element */
+    /* Parent element mora imati razlicit position od static kako bi pomeranje bilo relativno u odnosu na njega, a ne na celu stranicu */
+    top: 0px;
+    right: 0px;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #008b8b;
+    position: fixed;
+    /* Fixed ne cuva prostor na kome se nalazio i sledeci element ce se pomerini na taj prostor */
+    /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na celu stranicu */
+    top: 50px;
+    left: 150px;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: #ffff00;
+    position: sticky;
+    /* Fixed ne cuva prostor na kome se nalazio i sledeci element se nece pomerini na taj prostor */
+    /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na trenutno postavljeni element */
+    left: 50px;
+    top: 50px;
+    z-index: 10;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: #008000;
+    z-index: 20;
+    position: relative;
+}

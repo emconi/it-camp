@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+.main {
+    margin: 2rem auto;
+    width: 35vw;
+    height: 75vh;
+    background: #ffff00;
+    position: relative;
+    float: left;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #00ffff;
+    top: 50px;
+    left: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    left: 190px;
+    position: relative;
+    z-index: 5;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    left: 220px;
+    top: -40px;
+    position: relative;
+}
